@@ -49,7 +49,7 @@ export const getServerSideProps = async (pageContext) => {
 
   return {
     props: {
-      employee,
+      employee: JSON.parse(JSON.stringify(employee)),
     },
   };
 };
