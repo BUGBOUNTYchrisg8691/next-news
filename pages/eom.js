@@ -1,4 +1,4 @@
-import { Head } from "next/head";
+import Head from "next/head";
 import { Toolbar } from "../components/toolbar";
 import styles from "../styles/EOM.module.css";
 
